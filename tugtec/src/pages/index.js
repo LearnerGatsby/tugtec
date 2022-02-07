@@ -98,7 +98,7 @@ const links = [
     text: "Reference Guides",
     url: "https://www.gatsbyjs.com/docs/reference/",
     description:
-      "Nitty-gritty technical descriptions of how Gatsby works. Most useful when you need detailed information about Gatsby's APIs.",
+      "Test Nitty-gritty technical descriptions of how Gatsby works. Most useful when you need detailed information about Gatsby's APIs.",
     color: "#BC027F",
   },
   {
@@ -165,7 +165,7 @@ const IndexPage = () => {
               </a>
               {link.badge && (
                 <span style={badgeStyle} aria-label="New Badge">
-                  NEW!
+                  NEW Test!
                 </span>
               )}
               <p style={descriptionStyle}>{link.description}</p>
